@@ -33,7 +33,7 @@ function MyComponent({ cartItems, RemovefromCart }) {
                 </a>
               </li>
             </ul>
-            <form className="d-flex"  onSubmit={(e) => e.preventDefault()}>
+            <form onSubmit={(e) => e.preventDefault()}>
               <button className="btn btn-outline-dark" type="submit">
                 <i className="bi-cart-fill me-1"></i>
                 Your Cart
